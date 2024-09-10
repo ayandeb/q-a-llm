@@ -13,8 +13,8 @@ from huggingface_hub import hf_hub_download, login
 from transformers import AutoModel, AutoTokenizer, LlamaConfig
 
 
-os.environ['HF_TOKEN'] = "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"
-os.environ['HUGGINGFACEHUB_API_TOKEN'] = "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"
+os.environ['HF_TOKEN'] = "***"  #secret key
+os.environ['HUGGINGFACEHUB_API_TOKEN'] = "***"
 
 # Load the LLAMA 3.1 Model and QLoRA:
 from transformers import AutoModelForCausalLM, AutoTokenizer
